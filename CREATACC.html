@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GYKUME</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./external-stylesheet.css">
+	<link rel="stylesheet" href="./ca.css">
+</head>
+<body style="text-align: center;">
+	<div id="page-container" class="page-container-draw">
+		<div id="section-header" class="header">
+			<header class="site-header">
+				<nav class="site-header-nav">
+					<ul class="site-header-links">
+						<li class="site-header-link-item">
+							<a href="./Gallery.html" class="header-link" title="GALLERY" aria-label="GALLERY">GALLERY</a>
+						</li>
+						<li class="site-header-link-item">
+							<a href="./Homepage.html" class="header-link" title="HOMEPAGE" aria-label="HOMEPAGE">HOMEPAGE</a>
+						</li>
+						<li class="site-header-link-item">
+							<a href="./Login.html" class="header-link" title="LOGIN" aria-label="LOGIN">LOGIN</a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+		<main role="main" id="MainContent">
+			<div class="LOGIN">
+				<div class="LOGIN-CONTAINER">
+					<section class="login-create" style="margin:0 auto;">
+						<div class="login-login">
+							<div class="catitle">CREATE ACCOUNT</div>
+							<form method="post" action="./create.php" id="create-customer">
+								<input type="hidden" name="form-type" value="create-customer">
+								<input type="hidden" name="utf8" value="✓">
+								<div class="IC">
+									<input type="text" name="fName" id="FirstName" value="" placeholder="FIRST NAME" autofocus class="login-form-input"></input>
+								</div>
+								<div class="IC">
+									<input type="text" name="lName" id="LastName" value="" placeholder="LAST NAME" class="login-form-input"></input>
+								</div>
+								<div class="IC">
+									<input type="email" name="em" id="Email" value="" class="login-form-input"  placeholder="EMAIL" value spellcheck="false" autocomplete="off" autocapitalize="off"></input>
+								</div>
+								<div class="IC">
+									<input type="password" name="psd" id="Create-password" value="" placeholder="PASSWORD" class="login-form-input"></input>
+								</div>
+								<div class="next-btn-view"  id="cabtn" style="padding-bottom: 20px;">
+									<input type="submit" name="submit" value="CREATE" class="next-btn" style="width: 600px;">
+								</div>
+								<a id="linkback" href="./Login.html" class="login-content-link">BACK TO LOGIN</a>
+							</form>
+						</div>
+					</section>
+				</div>
+			</div>
+		</main>
+		<div id="section-footer" class="footer">
+			<footer class="site-footer">
+				<div class="site-footer-copyright">GYKUME LIU © 2021</div>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>

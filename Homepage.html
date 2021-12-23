@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GYKUME</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./external-stylesheet.css">
+	<link rel="stylesheet" href="./Homepage.css">
+	<script>
+		function linkWhisper() {
+			window.location.href="./Whisper.html";
+		}
+		function linkRainny() {
+			window.location.href="./Rainny.html";
+		}
+		function linkOTR() {
+			window.location.href="./OTR.html";
+		}
+		function colorChan1B() {
+			var TXT = document.getElementById("txt");
+			TXT.style.color="#F9D952";
+		}
+		function colorChan1Y() {
+			var TXT = document.getElementById("txt");
+			TXT.style.color="black";
+		}
+		function colorChan2B() {
+			var TXT = document.getElementById("Whisper");
+			TXT.style.color="#F9D952";
+		}
+		function colorChan2Y() {
+			var TXT = document.getElementById("Whisper");
+			TXT.style.color="black";
+		}
+		function colorChan3B() {
+			var TXT = document.getElementById("OTR");
+			TXT.style.color="#F9D952";
+		}
+		function colorChan3Y() {
+			var TXT = document.getElementById("OTR");
+			TXT.style.color="black";
+		}
+	</script>
+</head>
+<body style="text-align: center;">
+	<div id="section-header" class="header">
+		<header class="site-header">
+			<nav class="site-header-nav">
+				<ul class="site-header-links">
+					<li class="site-header-link-item">
+						<a href="./Gallery.html" class="header-link" title="GALLERY" aria-label="GALLERY">GALLERY</a>
+					</li>
+					<li class="site-header-link-item">
+						<a href="./Homepage.html" class="header-link" title="HOMEPAGE" aria-label="HOMEPAGE">HOMEPAGE</a>
+					</li>
+					<li class="site-header-link-item">
+						<a href="./Login.html" class="header-link" title="LOGIN" aria-label="LOGIN">LOGIN</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+	<div class="main">
+		<div class="CONTAINER">
+			<div style="height: 22px"></div>
+			<div class="head">
+				PHOTOBOOTH
+			</div>
+			<div style="height: 22px"></div>
+			<div id="container">
+				<div id="photo">
+					<img src="./FILMSELECTED/001.JPG" />
+					<img src="./FILMSELECTED/002.JPG" />
+					<img src="./FILMSELECTED/003.JPG" />
+					<img src="./FILMSELECTED/004.JPG" />
+					<img src="./FILMSELECTED/005.JPG" />
+					<img src="./FILMSELECTED/006.JPG" />
+					<img src="./FILMSELECTED/007.JPG" />
+					<img src="./FILMSELECTED/008.JPG" />
+					<img src="./FILMSELECTED/009.JPG" />
+					<img src="./FILMSELECTED/010.JPG" />
+					<img src="./FILMSELECTED/011.JPG" />
+					<img src="./FILMSELECTED/012.JPG" />
+					<img src="./FILMSELECTED/013.JPG" />
+					<img src="./FILMSELECTED/014.JPG" />
+					<img src="./FILMSELECTED/015.JPG" />
+					<img src="./FILMSELECTED/016.JPG" />
+					<img src="./FILMSELECTED/017.JPG" />
+					<img src="./FILMSELECTED/018.JPG" />
+					<img src="./FILMSELECTED/019.JPG" />
+					<img src="./FILMSELECTED/020.JPG" />
+				</div>
+			</div>
+			<div style="height: 11px"></div>
+		</div>
+		<div class="CONTAINER">
+			<div style="height: 22px"></div>
+			<div class="head">
+				ARTICALS
+			</div>
+			<div style="height: 22px;"></div>
+			<div class="main-holder">
+				<div class="text-holder" onclick=javascript:linkRainny()>
+					<div class="textinside" id="txt" onmouseover="colorChan1B()" onmouseleave="colorChan1Y()">
+						恍惚 梦境 EMO 雨天
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="main-holder">
+				<div class="text-holder" onclick=javascript:linkWhisper()>
+					<div class="textinside" id="Whisper" onmouseover="colorChan2B()" onmouseleave="colorChan2Y()">
+						Whisper
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="main-holder">
+				<div class="text-holder" onclick=javascript:linkOTR()>
+					<div class="textinside" id="OTR" onmouseover="colorChan3B()" onmouseleave="colorChan3Y()">
+						On The Road
+					</div>
+				</div>
+			</div>
+			<div style="height: 222px;"></div>
+		</div>
+	</div>
+	<div id="section-footer" class="footer">
+		<footer class="site-footer">
+			<div class="site-footer-copyright">GYKUME LIU © 2021</div>
+		</footer>
+	</div>
+</body>
+</html>

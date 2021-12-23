@@ -1,0 +1,159 @@
+.main{
+	background-image: url("./FILMSELECTED/0000001.png");
+	position: relative;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	float: left;
+}
+.CONTAINER{
+	border-top: dotted;
+	border-width: 10px;
+}
+.head{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-align: center;
+	font-size: 30px;
+}
+
+* {
+	box-sizing: border-box;
+}
+.main-holder {
+	width: 909.25px;
+	height: 60.825px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	margin: 0 auto;
+}
+.text-holder {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: inherit;
+	overflow: hidden;
+	border-radius: 3px;
+	margin: 0 auto;
+}
+.text-holder::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: inherit;
+	background-attachment: fixed;
+	-webkit-filter: blur(2px);
+	-moz-filter: blur(2px);
+	-ms-filter: blur(2px);
+	-o-filter: blur(2px);
+	filter: blur(4px);
+}
+.text-holder::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.25);
+}
+
+.textinside{
+	z-index: 1;
+	color: black;
+	position: relative;
+	margin: 0 auto;
+	font-weight: bold;
+	font-size: 25px;
+	padding-top: 10.5px;
+}
+
+#container{
+	height: 608.25px;
+	width: 909.25px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#photo{
+	width: 18185px;
+	animation: switch 30s ease-out infinite;
+}
+
+#photo > img {
+	float: left;
+	height: 608.25px;
+	width: 909.25px;
+}
+
+@keyframes switch {
+	0%, 5% {
+		margin-left: 0px;
+	}
+	5%, 10% {
+		margin-left: -909.25px;
+	}
+	10%, 15% {
+		margin-left: -1818.5px;
+	}
+	15%, 20% {
+		margin-left: -2727.75px;
+	}
+	20%, 25% {
+		margin-left: -3637px;
+	}
+	25%, 30% {
+		margin-left: -4546.25px;
+	}
+	30%, 35% {
+		margin-left: -5455.5px;
+	}
+	35%, 40% {
+		margin-left: -6364.75px;
+	}
+	40%, 45% {
+		margin-left: -7274px;
+	}
+	45%, 50% {
+		margin-left: -8183.25px;
+	}
+	50%, 55% {
+		margin-left: -9092.5px;
+	}
+	55%, 60% {
+		margin-left: -10001.8px;
+	}
+	60%, 65% {
+		margin-left: -10911px;
+	}
+	65%, 70% {
+		margin-left: -11820.2px;
+	}
+	70%, 75% {
+		margin-left: -12729.5px;
+	}
+	75%, 80% {
+		margin-left: -13638.8px;
+	}
+	80%, 85% {
+		margin-left: -14548px;
+	}
+	85%, 90% {
+		margin-left: -15457.2px;
+	}
+	90%, 95% {
+		margin-left: -16366.5px;
+	}
+	95%, 100% {
+		margin-left: -17275.8px;
+	}
+
+}
