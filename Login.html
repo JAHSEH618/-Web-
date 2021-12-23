@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GYKUME</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="./Login.css">
+	<script>
+		function jumpCA(){
+			window.location.href="./CREATACC.html";
+		}
+		function jumpR(){
+			window.location.href="./reset.html";
+		}
+		function jumpV(){
+			window.location.href="./VC.html";
+		}
+	</script>
+</head>
+<body>
+	<div id="page-container" class="page-container-draw">
+		<div id="section-header" class="header">
+			<header class="site-header">
+				<nav class="site-header-nav">
+					<ul class="site-header-links">
+						<li class="site-header-link-item">
+							<a href="./Gallery.html" class="header-link" title="GALLERY" aria-label="GALLERY">GALLERY</a>
+						</li>
+						<li class="site-header-link-item">
+							<a href="./Homepage.html" class="header-link" title="HOMEPAGE" aria-label="HOMEPAGE">HOMEPAGE</a>
+						</li>
+						<li class="site-header-link-item">
+							<a href="./Login.html" class="header-link" title="LOGIN" aria-label="LOGIN">LOGIN</a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+		<main role="main" id="MainContent">
+			<div class="LOGIN">
+				<div class="LOGIN-CONTAINER">
+					<section class="login-current" style="display: inline;">
+						<div class="view">
+							<div class="login">
+								<div class="login-tab">
+									<span>Login With Email</span>
+								</div>
+								<form class="mail-login" method="post" action="check.php">
+									<div class="input">
+										<div class="input-view">
+											<input name="em" placeholder="login email" type="email" value="" class="input"></input>
+											<p></p>
+										</div>
+									</div>
+									<div class="input">
+										<div class="input-view">
+											<input name="pass" placeholder="password" type="password" value="" class="input"></input>
+											<p></p>
+										</div>
+									</div>
+									<div class="next-btn-view" style="padding-top: 13px;">
+										<input type="submit" name="submit" value="LOGIN" class="next-btn">
+									</div>
+								</form>
+								<div class="next-btn-view">
+									<button class="next-btn" style="margin: 16px 0px;" onclick=javascript:jumpR()>FORGET/RESET</button>
+								</div>
+								<div class="next-btn-view">
+									<button class="next-btn" style="margin: 16px 0px;" onclick=javascript:jumpV()>USING VERIFY CODE</button>
+								</div>
+							</div>
+						</div></section>
+					<section class="login-new" style="display: inline;">
+						<div class="view">
+							<div class="login2">
+							<h2 class="login-subheader">CREAT ACCOUNT</h2>
+							<p class="login-content" style="font-family: Arial, Helvetica, sans-serif; padding-top: 50px;">CREAT A NEW ACCOUNT WILL HELP YOU TO HAVE A BETTER EXPERIENCE</p>
+							<div class="next-btn-view" style="padding-top:55px;">
+								<button class="next-btn" style="margin: 16px 0px;" onclick=javascript:jumpCA()>CREATE ACCOUNT</button>
+							</div>
+						</div>
+						</div></section>
+				</div>
+			</div>
+		</main>
+		<div id="section-footer" class="footer">
+			<footer class="site-footer">
+				<div class="site-footer-copyright">GYKUME LIU © 2021</div>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>

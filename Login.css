@@ -1,0 +1,108 @@
+		section{
+			float: left;
+			width: 50%;
+		}
+		.view{
+			padding-top: 100px;
+			padding-bottom: 50px;
+		}
+		.login2{
+			border-left: dotted;
+			width: 225px;
+			height: 400px;
+			padding-left: 40px;
+			padding-top: 25px;
+			padding-bottom: 20px;
+			text-align: center;
+		}
+		.login{
+			width: 225px;
+			height: 400px;
+			padding-top: 45px;
+			margin-left: 364px;
+		}
+		.login-tab{
+			color: black;
+			font-family: "Comic Sans MS", cursive, sans-serif;
+			font-weight: bold;
+			font-size: 25px;
+			padding-bottom: 10px;
+		}
+		.login-subheader{
+			color: black;
+			font-family: "Comic Sans MS", cursive, sans-serif;
+			font-weight: bold;
+			font-size: 25px;
+			padding-bottom: 40px;
+		}
+
+		.login-subheader2{
+			color: black;
+			font-weight: bold;
+			font-size: 25px;
+			padding-bottom: 40px;
+			text-align: center;
+		}
+
+		.login-content{
+			padding-bottom: 20px;
+		}
+
+		.next-btn{
+			width: 200px;
+			height: 30px;
+			font-size: 15px;
+			font-weight: bold;
+			border: none;
+			background-color: rgb(249, 217, 82);
+			color: rgb(0, 0, 0);
+		}
+		.next-btn:hover{
+			width: 200px;
+			height: 30px;
+			font-size: 15px;
+			font-weight: bold;
+			border: none;
+			background-color: rgb(0, 0, 0);
+			color: rgb(249, 217, 82);
+		}
+
+		.input{
+			border: 1px black;
+			height: 30px;
+			width: 200px;
+			margin-top: 22px;
+			margin-bottom: 30px;
+			font-size: 15px;
+		}
+		.site-header-links{
+			padding-left: 150px;
+			padding-top: 20px;
+			text-align: center;
+		}
+		.header-link{
+			color: black;
+			font-size: 30px;
+			font-weight: bold;
+		}
+		.site-header-link-item{
+			padding-top: 30px;
+			display: inline;
+			padding-right: 150px;
+		}
+		.site-footer-copyright{
+			font-size: 15px;
+			font-weight: bold;
+			font-family: "Comic Sans MS", cursive, sans-serif;
+			text-align: center;
+		}
+		a{
+			text-decoration: none;
+			font-family: "Comic Sans MS", cursive, sans-serif;
+		}
+		a:hover{
+			color: rgb(249, 217, 82);
+		}
+		ul{
+			list-style: none;
+		}
